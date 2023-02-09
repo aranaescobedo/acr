@@ -13,7 +13,7 @@ Each script in this folder is designed to perform a specific task with ACR. Befo
 
 ## Script Descriptions
 
-- **import-docker-images-to-acr.ps1**: Imports Docker images from Docker Hub to your ACR for efficient storage and distribution.
+- **[import-docker-images-to-acr.ps1]**: Imports Docker images from Docker Hub to your ACR for efficient storage and distribution.
 
 
 ## Disclaimer
@@ -22,3 +22,4 @@ Please note that this is provided as-is and may not suit all use cases. Use at y
 [azure-cli]: https://docs.microsoft.com/en-us/cli/azure
 [azure-account]: https://azure.microsoft.com/en-us/free
 [docker-desktop]:https://docs.docker.com/get-docker/
+[import-docker-images-to-acr.ps1]:import-docker-images-to-acr.ps1

@@ -34,3 +34,8 @@ foreach ($imageName in $importImages) {
     --source docker.io/$imageName `
     --image $imageName 
 }
+
+#Attn: If you get Error 401 unauthorized, it could mean that you need to add /library/ in row 34! Example: docker.io/library/$imageName
+
+#Source:
+#https://github.com/Azure/acr/issues/457

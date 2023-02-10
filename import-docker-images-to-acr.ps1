@@ -1,6 +1,9 @@
 <#
     .DESCRIPTION
          This scripts imports Docker images from Docker Hub to an Azure Container Registry for container management, scanning and deployment.
+         
+         Attn: If you get Error 401 unauthorized, it could mean that you need to add /library/ in row 37! Example: docker.io/library/$imageName
+         Source: https://github.com/Azure/acr/issues/457
 
     .NOTES
         AUTHOR: Alexander Arana E
@@ -35,7 +38,7 @@ foreach ($imageName in $importImages) {
     --image $imageName 
 }
 
-#Attn: If you get Error 401 unauthorized, it could mean that you need to add /library/ in row 34! Example: docker.io/library/$imageName
+#Attn: If you get Error 401 unauthorized, it could mean that you need to add /library/ in row 37! Example: docker.io/library/$imageName
 
 #Source:
 #https://github.com/Azure/acr/issues/457

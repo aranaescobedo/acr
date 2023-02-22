@@ -24,3 +24,4 @@ Please note that this is provided as-is and may not suit all use cases. Use at y
 [azure-account]: https://azure.microsoft.com/en-us/free
 [docker-desktop]:https://docs.docker.com/get-docker/
 [import-docker-images-to-acr.ps1]:import-docker-images-to-acr.ps1
+[repository-image-size.ps1]:repository-image-size.ps1

@@ -1,6 +1,6 @@
 <#
     .DESCRIPTION
-         This script calculates the size of repositories in the Azure Container Registry and outputs the results to the console.
+         This script calculates the size of the repositories in the Azure Container Registry and outputs the results to the console.
          
     .NOTES
         AUTHOR: Alexander Arana E

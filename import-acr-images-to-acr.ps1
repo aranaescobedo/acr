@@ -15,7 +15,7 @@ $subscriptionName = "<SUBSCRIPTION_NAME_WHERE_THE_ACR_IS_LOCATED>"
 #An array of ACR images to be imported to ACR
 $importImages = @(
     "<REPOSITORY_NAME:TAG>",
-    "<REPOSITORY_NAME:TAG>",
+    "<REPOSITORY_NAME:TAG>"
 )
 
 #Logout from the current Docker registry

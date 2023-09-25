@@ -14,6 +14,7 @@ Each script in this folder is designed to perform a specific task with ACR. Befo
 ## Script Descriptions
 
 - **[import-docker-images-to-acr.ps1]**: Imports Docker images from Docker Hub to your ACR for efficient storage and distribution.
+- **[import-acr-images-to-acr.ps1]**: Imports images from Azure Container Registry (ACR) to an Azure Container Registry in the same subscription.
 - **[repository-image-size.ps1]**: Calculates the size of the repositories in the Azure Container Registry and outputs the results to the console.
 
 

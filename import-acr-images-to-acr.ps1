@@ -8,9 +8,9 @@
         LASTEDIT: Sept 25, 2023
 #>
 
-$importToAcrName = "<ACR_NAME>"
-$importFromAcrName = "<ACR_NAME>"
-$subscriptionName = "<SUBSCRIPTION_NAME>"
+$importToAcrName = "<ADD_YOUR_ARC_NAME>"
+$importFromAcrName = "<ADD_YOUR_ARC_NAME>"
+$subscriptionName = "<SUBSCRIPTION_NAME_WHERE_THE_ACR_IS_LOCATED>"
 
 #An array of ACR images to be imported to ACR
 $importImages = @(

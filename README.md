@@ -1,6 +1,9 @@
-# ACR (Azure Container Registry)
+<p align="center">
+ <img width="100px" src=".images/azure-container-registries.svg" align="center" alt="Azure Container Registries" />
+ <h2 align="center">Azure Container Registries(ACR)</h2>
+ <p align="center">This repository contains scripts that are used to interact with Azure Container Registries (ACR).</p>
+</p>
 
-This folder contains scripts that are used to interact with Azure Container Registry (ACR).
 
 ## Prerequisites
 
